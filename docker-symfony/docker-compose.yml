@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    nginx:
+        build: nginx
+        ports:
+            - 81:80
+        volumes:
+            - ./logs/nginx/:/var/log/nginx
+            - ../src/:/var/www/phantomdungeon

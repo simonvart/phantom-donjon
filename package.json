@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "name": "phantom-dungeon",
+  "author": "The Varteam",
+  "description": "Jeu inspiré de la série Gauntlet avec un petit twist",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonvart/phantom-dungeon.git"
+  },
+  "dependencies": {
+    "gulp": "~3.9.1",
+    "gulp-cli": "~2.0.1",
+    "phaser": "~3.13.0"
+  }
+}
